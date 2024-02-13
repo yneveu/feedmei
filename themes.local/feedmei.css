@@ -21,10 +21,10 @@
 }
 	.icon-three-dots,
 	.loading-indicator,
-	.material-icons { filter: grayscale(100%) }
+	.material-icons { filter: grayscale(0%) }
 	.flat :before {
 		font-family: "flat-icon" !important;
-		filter: grayscale(100%);
+		filter: grayscale(0%);
 	}
 
 .header .collapse i.material-icons {
@@ -186,7 +186,7 @@ body.ttrss_main #feeds-holder #feedTree .dijitTreeRow.Error .dijitTreeLabel { co
 .loadingNode,
 .feed-icon img,
 .feed-title img,
-.header img { filter: grayscale(100%) opacity(75%) !important }
+.header img { filter: grayscale(0%) opacity(100%) !important }
 
 .dijitButton,
 .dijitCheckBox,
@@ -198,7 +198,7 @@ body.ttrss_main #feeds-holder #feedTree .dijitTreeRow.Error .dijitTreeLabel { co
 
 .ttrss_prefs .prefs.plugin > label { vertical-align: top }
 
-.marked .marked-pic { filter: grayscale(100%) brightness(60%) }
+.marked .marked-pic { filter: grayscale(60%) brightness(60%) }
 
 .cdm.expandable.active .collapse i.material-icons,
 body.ttrss_main #feeds-holder #feedTree .dijitTreeNode .dijitTreeRow i.icon.icon-restore,
